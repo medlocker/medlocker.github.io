@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.page1 {
+    align-self: flex-end;
+    width: 100vw;
+    height: calc(100% - 15vh);
+    display: flex;
+    padding: 4vh 5vw;
+    gap: 5vw;
+}
+
+.uploaddoc {
+    width: 33vw;
+    height: 100%;
+    border: 1.5px dashed black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6vh;
+}
+
+.sec1 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec1 span {
+    width: 25%;
+    padding: 1vh 0;
+}
+
+.uploaddoc img {
+    width: 20%;
+}
+
+.uploaddoc button {
+    width: 23%;
+    padding: 1.5vh;
+    background-color: #5e9bff;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+
+.process-back {
+    align-self: flex-end;
+    width: calc(100% - 33vw);
+    display: flex;
+    justify-content: space-between;
+}
+
+.process-back button {
+    padding: 2vh 2vw;
+    font-size: 1.2vw;
+    color: white;
+    background-color: #3a4f39;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.process-back a {
+    text-decoration: none;
+    padding: 2vh 2vw;
+    font-size: 1.2vw;
+    color: white;
+    background-color: #3a4f39;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.process-back button:hover,a:hover {
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+    transition: all .2s ease-in-out ;
+}

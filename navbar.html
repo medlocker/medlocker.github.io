@@ -1,0 +1,90 @@
+<div class="nav-logo">
+    <img src="/Images/logo.png" alt="">
+</div>
+<div class="nav-mid">
+    <a href="/">Catalog</a>
+    <a href="/">Delivery</a>
+    <a href="/">Payment</a>
+    <a href="/">Contact</a>
+    <a href="/">About Us</a>
+</div>
+<div class="nav-right">
+    <a href="/" id="signin">Sign In</a>
+    <a href="/" id="joinnow">Join Now</a>
+</div>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 0 2vw;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    nav a:active {
+        color: red;
+    }
+
+    .nav-logo {
+        height: 100%;
+        width: 15vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo img {
+        height: 12vh;
+        width: 100%;
+    }
+
+    .nav-mid {
+        display: flex;
+        gap: 6vw;
+        font-size: 1.4vw;
+    }
+
+    .nav-right {
+        padding: 1.5vh 2vw;
+        display: flex;
+        gap: 1vw;
+    }
+
+    .nav-right a {
+        border-radius: 3px;
+        padding: 2vh 2vw;
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+
+    #signin {
+        color: rgb(58, 79, 57);
+        border: 1.5px solid rgb(58, 79, 57);
+    }
+
+    #joinnow {
+        color: #fff;
+        border: 1.5px solid rgb(58, 79, 57);
+        background-color: rgb(58, 79, 57);
+    }
+
+    .nav-sidebar {
+        display: none;
+    }
+</style>
